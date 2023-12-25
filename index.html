@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>paapa ki website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
+<script src="main.js"></script>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Sans:ital,wght@1,300&display=swap');
+</style>
+  </head>
+
+<body style=" font-family: 'Indie Flower', cursive;
+font-family: 'Noto Sans', sans-serif;">
+ <!-- Navigation -->
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Agri-ENNovations</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#aboutus">About Us</a></li>
+        <li><a href="#ourworks">Our Works</a></li>
+        <li><a href="#ourteam">Our Team</a></li>
+        <li><a href="#contactus">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
+<!-- Header with Image -->
+<div class="jumbotron text-center">
+  <img src="images.jpg" alt="Jumbotron Image">
+  <h1>Welcome to Agri-ENNovations</h1>
+  <p>Your Partner in Innovation</p>
+</div>
+
+
+<section id="aboutus">
+  <div id="about-content">
+    <h1>About Us</h1>
+    <p>Pellentesque condimentum iaculis quam sit amet varius. Fusce placerat et justo quis aliquam. Nullam nec ante dapibus, mollis turpis in, accumsan odio. Etiam commodo odio eget massa iaculis scelerisque. Cras eu eros id tellus mattis euismod. Proin eu eros varius, bibendum magna ut, dapibus velit. In vestibulum efficitur urna, et maximus lectus.
+    </p>
+  </div>
+  <img src="pic 1.jpg" class="about-image">
+  <img src="Picture_(3).jpg" class="about-image" >
+
+</section>
+
+<section id="ourworks"> 
+
+<h1> OUR WORKS</h1>
+
+<div id="mycarousel" class="carousel slide">
+  <div class="carousel-inner">  <!-- sarting of the main carousel div -->
+
+  <div class="item active"> <center>
+    <a href="..." target="_blank"> <img class="img-responsive" src="pic 1.jpg">  </a>
+    <div class="carousel-content">
+    <h2>Lorem Ipsum</h2></div>
+  </center></div>
+
+  <div class="item"> <center>
+  <a href="" target="_blank"> <img class="img-responsive" src="Picture_(3).jpg">  </a>
+    <div class="carousel-content">
+    <h2>Lorem Ipsum 2</h2></div>
+    </center></div>
+                
+   <div class="item"> <center>
+      <a href="">  </a>
+      <div class="carousel-content">
+      <h2>Lorem Ipsum3</h2></div>
+    </center></div> 
+
+ </div> <!-- closing of the main div -->
+             
+<a class="left carousel-control" href="#mycarousel" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"> </span> </a>
+
+<a class="right carousel-control" href="#mycarousel" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"> </span> </a>
+                 
+</div>
+   
+</section>
+<br> <br> <br>
+
+
+<section id="ourteam"  > 
+  <h1 class="text-center">Our Team</h1>
+
+  <div class="text-center">
+    <!-- Team member 1 -->
+    <div class="col-md-4 team-member" data-toggle="modal" data-target="#vishalModal">
+      <img src="pic 1.jpg" class="team-image">
+      <p style="font-size: 20px;">Vishal Rawat<br> Director</p>
+    </div>
+
+    <!-- Team member 2 -->
+    <div class="col-md-4 team-member" data-toggle="modal" data-target="#johnModal">
+      <img src="Picture_(3).jpg" class="team-image">
+      <p style="font-size: 20px;">John Doe<br> Manager</p>
+    </div>
+
+   <!-- Team member 3 -->
+    <div class="col-md-4 team-member" data-toggle="modal" data-target="#johnModal">
+      <img src="Picture_(3).jpg" class="team-image">
+      <p style="font-size: 20px;">John Doe<br> Manager</p>
+    </div>
+
+    <!-- Add more team members here with the same structure -->
+
+  </div>
+
+  <!-- Modal for Team Member 1 -->
+  <div class="modal fade" id="vishalModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Vishal Rawat</h4>
+        </div>
+        <div class="modal-body">
+          <!-- Content for Team Member 1 -->
+          <img src="pic1.jpg" class="img-responsive img_modal" style="width: 50%; margin-left: 225px;">
+          <br>
+          <p class="p_modal">
+            About Vishal Rawat
+            <!-- Add specific content for Vishal Rawat -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for Team Member 2 -->
+  <div class="modal fade" id="johnModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">John Doe</h4>
+        </div>
+        <div class="modal-body">
+          <!-- Content for Team Member 2 -->
+          <img src="pic2.jpg" class="img-responsive img_modal" style="width: 50%; margin-left: 225px;">
+          <br>
+          <p class="p_modal">
+            About John Doe
+            <!-- Add specific content for John Doe -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!--Modal for team member 3-->
+    
+    <div class="modal fade" id="johnModal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">John Doe</h4>
+          </div>
+          <div class="modal-body">
+            <!-- Content for Team Member 3 -->
+            <img src="pic2.jpg" class="img-responsive img_modal" style="width: 50%; margin-left: 225px;">
+            <br>
+            <p class="p_modal">
+              About John Doe
+              <!-- Add specific content for John Doe -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Add more modals for other team members as needed -->
+
+</section>
+<br> <br>  <br> <br> <br> <br> <br> <br> <br> 
+
+<section id="contactus" style="background-image: url('bg.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you. Feel free to get in touch with us using the information below:</p>
+        
+        <address>
+          <strong>Your Business Name</strong><br>
+          123 Main Street<br>
+          City, State, ZIP Code<br>
+        </address>
+
+        <p><strong>Email:</strong> <a href="mailto:info@yourbusiness.com">info@yourbusiness.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+1234567890">123-456-7890</a></p>
+      </div>
+
+      <div class="col-md-6">
+        <h2>Contact Form</h2>
+        <form action="submit_contact_form.php" method="post">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+</body>

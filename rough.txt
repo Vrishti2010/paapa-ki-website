@@ -1,0 +1,28 @@
+<!-- <section id="our-team">
+  <h1>Our Team</h1>
+  <div class="team-member">
+    <img src="pic 1.jpg" class="team-image">
+    <p style="font-size: 20px;">Vishal Rawat<br> Director</p>
+  </div>
+
+  <div class="team-member">
+    <img src="Picture_(3).jpg" class="team-image">
+    <p style="font-size: 20px;">Vishal Rawat<br> Director</p>
+  </div>
+
+  <div class="team-member">
+    <img src="Picture_(3).jpg" class="team-image">
+    <p style="font-size: 20px;">Vishal Rawat<br> Director</p>
+  </div>
+
+  <div class="team-member">
+    <img src="Picture_(3).jpg" class="team-image">
+    <p style="font-size: 20px;">Vishal Rawat<br> Director</p>
+  </div>
+
+  <div class="team-member">
+    <img src="pic 1.jpg" class="team-image">
+    <p style="font-size: 20px;">Vishal Rawat<br> Director</p>
+  </div>
+
+  </section> -->
